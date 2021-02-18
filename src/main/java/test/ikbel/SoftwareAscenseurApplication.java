@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @EnableAutoConfiguration
-public class SoftwareAscenceurApplication {
+public class SoftwareAscenseurApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SoftwareAscenceurApplication.class, args);
+		SpringApplication.run(SoftwareAscenseurApplication.class, args);
 	}
 
 }

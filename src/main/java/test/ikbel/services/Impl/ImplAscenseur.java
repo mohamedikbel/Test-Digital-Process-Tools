@@ -5,15 +5,15 @@ import test.ikbel.entities.Ascenseur;
 import test.ikbel.services.IAscenseur;
 
 /**
- * La classe ImplAscenseur Implemente l'interface IAscenceur
+ * La classe ImplAscenseur Implemente l'interface IAscenseur
  *
  */
 @Service
-public class ImplAscenceur implements IAscenseur {
+public class ImplAscenseur implements IAscenseur {
 
 	/**
 	 * Initialisation: --------------------------- 
-	 * - Ascenceur
+	 * - Ascenseur
 	 *  - Etages
 	 */
 
@@ -22,18 +22,18 @@ public class ImplAscenceur implements IAscenseur {
 	private Ascenseur[] ascenseurs;
 
 	/**
-	 * Cette Méthode affiche la liste des Ascenceurs 
+	 * Cette Méthode affiche la liste des Ascenseurs 
 	 * 
 	 * 
 	 */
 	@Override
-	public Ascenseur[] AfficherLesAscenceur() {
+	public Ascenseur[] AfficherLesAscenseur() {
 
 		return this.ascenseurs;
 	}
 
 	/**
-	 * On initialise tous les ascencurs au premier étage 
+	 * On initialise tous les ascenseurs au premier étage 
 	 */
 	@Override
 	public Ascenseur[] IntialiserSysteme() {
@@ -41,11 +41,11 @@ public class ImplAscenceur implements IAscenseur {
 		for (int asc = 0; asc < Nbr_Ascenseurs; asc++) {
 			ascenseurs[asc] = new Ascenseur(asc, 1, false, false);
 		}
-		return AfficherLesAscenceur();
+		return AfficherLesAscenseur();
 	}
 
 	/**
-	 * Cette méthode retourn l'état actuel d'un ascenceur  
+	 * Cette méthode retourn l'état actuel d'un Ascenseur  
 	 */
 	@Override
 	public int AfficherEtageActuel(int IdAsc) {
@@ -55,8 +55,8 @@ public class ImplAscenceur implements IAscenseur {
 
 	/**
 	 * Cette méthode retourne :
-	 * True si l'assenceur peut encore monter (on incrumente le numero de l'étage)
-	 * False si l'assenceur atteint la limite  
+	 * True si l'assenseur peut encore monter (on incrumente le numero de l'étage)
+	 * False si l'assenseur atteint la limite  
 	 */
 	@Override
 	public boolean GoUp(int IdAsc) {
@@ -75,8 +75,8 @@ public class ImplAscenceur implements IAscenseur {
 
 	/**
 	 * Cette méthode retourne :
-	 * True si l'assenceur peut encore descendre (on décrémenter le numero de l'étage)
-	 * False si l'assenceur atteint la limite  
+	 * True si l'assenseur peut encore descendre (on décrémenter le numero de l'étage)
+	 * False si l'assenseur atteint la limite  
 	 */
 	@Override
 	public boolean GoDown(int IdAsc) {

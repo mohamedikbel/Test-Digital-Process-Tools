@@ -10,60 +10,39 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
-
-import test.ikbel.services.Impl.ImplAscenceur;
+import test.ikbel.services.Impl.ImplAscenseur;
 
 @SpringBootTest
 
 @RunWith(JUnit4ClassRunner.class)
 
+public class SoftwareAscenseurApplicationTests {
 
-public class SoftwareAscenceurApplicationTests  {
-	
-	
-
-
-
-
-
-
-	
-
-
-
-	public SoftwareAscenceurApplicationTests() {
+	public SoftwareAscenseurApplicationTests() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
-
-
 	@Autowired
-	ImplAscenceur ImpAsc;
+	ImplAscenseur ImpAsc;
+
 	@Test
 	public void contextLoads() {
 
 	}
- 
-	
-	
+
 	@Test
-	public void IntialisationAscenceurTest()
-	{
-		
+	public void IntialisationAscenceurTest() {
+
 		ImpAsc.IntialiserSysteme();
 
 	}
-	
+
 	@Test
-	public void MovepTest()
-	{
-		
-		ImpAsc.GoUp(1) ;
+	public void MovepTest() {
+
+		ImpAsc.GoUp(1);
 		ImpAsc.GoDown(1);
 
-		
-
 	}
-	
+
 }

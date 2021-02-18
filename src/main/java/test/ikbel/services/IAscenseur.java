@@ -9,7 +9,7 @@ import test.ikbel.entities.Ascenseur;
  */
 public interface IAscenseur {
 
-	public Ascenseur[] AfficherLesAscenceur();
+	public Ascenseur[] AfficherLesAscenseur();
 
 	public Ascenseur[] IntialiserSysteme();
 

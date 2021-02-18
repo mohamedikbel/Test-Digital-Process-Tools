@@ -17,7 +17,7 @@ public class IndexController implements ErrorController {
 	@ResponseBody
 	public String getErrorPath() {
 		// TODO Auto-generated method stub
-		return "S'il vous plait initialisez les Ascenceurs...";
+		return "S'il vous plait initialisez les Ascenseurs...";
 	}
 
 }
