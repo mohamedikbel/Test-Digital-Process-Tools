@@ -18,4 +18,4 @@ L'application est réalisé en utilisant le Framework Spring.
 
 Un petit push sur Heroku et Voilà !
 
-[MIT] (https://syteme-ascenseur.herokuapp.com/swagger-ui/)
+ [Système Ascenseur Heroku](https://syteme-ascenseur.herokuapp.com/swagger-ui/) 
