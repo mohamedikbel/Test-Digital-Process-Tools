@@ -17,55 +17,34 @@ import test.ikbel.services.Impl.ImplAscenceur;
 
 @RunWith(JUnit4ClassRunner.class)
 
-
-public class SoftwareAscenceurApplicationTests  {
-	
-	
-
-
-
-
-
-
-	
-
-
+public class SoftwareAscenceurApplicationTests {
 
 	public SoftwareAscenceurApplicationTests() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 
-
-
 	@Autowired
 	ImplAscenceur ImpAsc;
+
 	@Test
 	public void contextLoads() {
 
 	}
- 
-	
-	
+
 	@Test
-	public void IntialisationAscenceurTest()
-	{
-		
+	public void IntialisationAscenceurTest() {
+
 		ImpAsc.IntialiserSysteme();
 
 	}
-	
-	@Test
-	public void MovepTest()
-	{
-		
-		ImpAsc.GoUp(1) ;
-		ImpAsc.GoDown(1);
 
-		
+	@Test
+	public void MovepTest() {
+
+		ImpAsc.GoUp(1);
+		ImpAsc.GoDown(1);
 
 	}
 
-
-	
 }
