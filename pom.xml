@@ -10,7 +10,7 @@
 	</parent>
 	
 	<groupId>test.ikbel</groupId>
-	<artifactId>SoftwareAscenceur</artifactId>
+	<artifactId>SoftwareAscenseur</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SoftwareAscenceur</name>
 	<description>Test technique Digital Process Tools</description>
@@ -19,6 +19,10 @@
 
 		<java.version>1.8</java.version>
         <maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
+        
+  <sonar.projectKey>mohamedikbel_Test-Digital-Process-Tools</sonar.projectKey>
+  <sonar.organization>mohamedikbel</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 		
 	</properties>
 	<dependencies>
