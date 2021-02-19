@@ -14,6 +14,12 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SoftwareAscenceur</name>
 	<description>Test technique Digital Process Tools</description>
+	
+	
+  <sonar.projectKey>mohamedikbel_Test-Digital-Process-Tools</sonar.projectKey>
+  <sonar.organization>mohamedikbel</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+
 <properties>
 
 
