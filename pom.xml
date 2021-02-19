@@ -16,7 +16,7 @@
 	<description>Test technique Digital Process Tools</description>
 	
 	
-  <sonar.projectKey>mohamedikbel_Test-Digital-Process-Tools</sonar.projectKey>
+  <sonar.projectKey>${branch}:${env}:${project.artifactId}</sonar.projectKey>
   <sonar.organization>mohamedikbel</sonar.organization>
   <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 
